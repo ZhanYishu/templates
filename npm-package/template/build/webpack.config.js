@@ -24,18 +24,18 @@ module.exports = {
           'css-loader'
         ]
       }
-    ],
-    plugins: [
-      new MiniCssExtractPlugin({
-        filename: 'css/[name].[hash].css',
-        allChunks: true
-      }),
-      new OptimizeCSSPlugin({
-        cssProcessorOptions: {
-          safe: true
-        }
-      })
-    ],
-    devtool: 'source-map'
-  }
+    ]
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      allChunks: true
+    }),
+    new OptimizeCSSPlugin({
+      cssProcessorOptions: {
+        safe: true
+      }
+    })
+  ],
+  mode: 'production'
 }
