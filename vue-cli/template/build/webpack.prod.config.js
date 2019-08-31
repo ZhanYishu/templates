@@ -17,7 +17,7 @@ let webpackConfig = merge(baseWebpackConfig, {
     // 注入html公共引用路径
     publicPath: config.prod.publicPath
   },
-  mode: 'development',
+  mode: 'production',
   plugins: [
     ...htmlPlugins,
     new MiniCssExtractPlugin({
