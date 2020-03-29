@@ -1,0 +1,29 @@
+$height: 0.8rem;
+
+.ec-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: $height;
+  // padding: 0 0.4rem;
+  // line-height: $height;
+  background-image: linear-gradient(90deg, #F57E35 0%, #E74818 100%);
+  border-radius: 0.54rem;
+  text-align: center;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  transition: opacity 0.5s;
+
+  &.disabled {
+    opacity: 0.5;
+  }
+
+  .ec-button-icon {
+    width: 0.52rem;
+    height: 0.52rem;
+    // margin-right: 0.12rem;
+  }
+}

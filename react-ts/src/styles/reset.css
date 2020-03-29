@@ -1,0 +1,73 @@
+html,
+body,
+a,
+div,
+p,
+button,
+span,
+ul,
+li {
+  font-family: Helvetica;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  text-decoration: none;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+a {
+  display: block;
+}
+
+textarea,
+input[type='range'],
+input,
+input:matches([type='password'], [type='search']) {
+  border: none;
+  border: 0 solid #fff;
+  border-radius: 0;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  border: none;
+  border-width: 1px;
+  background-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+body,button,input,select,textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Segoe UI', 'Microsoft YaHei', 'wenquanyi micro hei', 'Hiragino Sans GB',
+    'Hiragino Sans GB W3', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', Roboto,
+    'Droid Sans', Droidsansfallback, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+/* #root {
+  height: 100%;
+  width: 100%;
+} */
